@@ -41,4 +41,8 @@ Feel free to reach out: [spiteleski@gmail.com](mailto:spiteleski@gmail.com)
 
 ---
 
+## 🌐 Live Demo
+
+View the live site: [https://wspiteleski.github.io/personal-profile-page/](https://wspiteleski.github.io/personal-profile-page/)
+
 **Version 1.0** - HTML Structure Complete ✅
