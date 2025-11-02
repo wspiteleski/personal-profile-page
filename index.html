@@ -5,31 +5,44 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 		<title>Home</title>
 	</head>
 	<body>
 		<!--Header will include h1 with name-->
 		<header>
-			<h1>William Stewart Piteleski</h1>
+			<nav>
+				<a href="#introduction">About</a>
+				<a href="#schedule">Education</a>
+				<a href="#accomplishment">Accomplishments</a>
+				<a href="#contact">Contact</a>
+			</nav>
 		</header>
+		<section class="hero">
+			<h1>William Stewart Piteleski</h1>
+			<p>DOD Contractor | Aspiring Web Developer</p>
+			<a href="#contact" class="cta-button">Get in Touch</a>
+		</section>
 	
 		<main>
 			<!--Introduction Section includes: image, introduction paragraph, about me, and unordered skills and hobby list--> 
 			<section id="introductions">
-				<img src="https://www.shutterstock.com/image-vector/default-avatar-photo-placeholder-grey-600nw-2007531536.jpg" alt="profile picture" height="350" width="350">
-				<h2>Introduction:</h2>
-				<p>William Stewart Piteleski is an aspiring web developer with a passion for continual learning and desire for developmental experiences. With a military background, William has continued his service to the country as a Department of Defense  contractor where he is an active leader, trainer, and mentor. Now, looking for further experiences, William is receiving an education in computer information systems, with a future goal of web development and design. </p>
-				<h2>About William:</h2>
-				<p>William joined the military in 2011 where he served as a <strong>Fire Support specialist</strong>. In this role, he gained cultural exposure while living in Fort Lee, Virginia, Fort Sill, Oklahoma, Dougduchan, South Korea, and Fort Bliss, Texas. After his service, William approached a higher education while serving as a Department of Defense contractor at Aberdeen Test Center, Aberdeen Proving Grounds. He is currently finishing his initial higher education path with a <em>Associates in Computer Information Systems</em>, with a long term goal of pursuing a <em>Bachelors of Science in Web Development and Design.</em></p>
-				<h2>Skills and Hobbies:</h2>
-				<ul>
-					<li>Cooperative and experienced team leader</li>
-					<li>Computer proficient</li>
-					<li>Critical Thinker and action oriented</li> 
-					<li>Extremely organized</li>
-					<li>Strong verbal communicator</li>
-					<li>Actively endorse safety</li>
-				</ul>
+				<img src="https://www.shutterstock.com/image-vector/default-avatar-photo-placeholder-grey-600nw-2007531536.jpg" alt="profile picture" height="350" width="350" class="profile-pic">
+				<div class="intro-content">
+					<h2>Introduction:</h2>
+					<p>William Stewart Piteleski is an aspiring web developer with a passion for continual learning and desire for developmental experiences. With a military background, William has continued his service to the country as a Department of Defense  contractor where he is an active leader, trainer, and mentor. Now, looking for further experiences, William is receiving an education in computer information systems, with a future goal of web development and design. </p>
+					<h2>About William:</h2>
+					<p>William joined the military in 2011 where he served as a <strong>Fire Support specialist</strong>. In this role, he gained cultural exposure while living in Fort Lee, Virginia, Fort Sill, Oklahoma, Dougduchan, South Korea, and Fort Bliss, Texas. After his service, William approached a higher education while serving as a Department of Defense contractor at Aberdeen Test Center, Aberdeen Proving Grounds. He is currently finishing his initial higher education path with a <em>Associates in Computer Information Systems</em>, with a long term goal of pursuing a <em>Bachelors of Science in Web Development and Design.</em></p>
+					<h2>Skills and Hobbies:</h2>
+					<ul>
+						<li>Cooperative and experienced team leader</li>
+						<li>Computer proficient</li>
+						<li>Critical Thinker and action oriented</li> 
+						<li>Extremely organized</li>
+						<li>Strong verbal communicator</li>
+						<li>Actively endorse safety</li>
+					</ul>
+				</div>
 			</section>
 			<!-- Schedule Section includes: table of current courses and their beginning and end dates -->
 			<section id="schedule">
@@ -42,6 +55,7 @@
 							<th>Start Date</th>
 							<th>End Date</th>
 							<th>Subject Description</th>
+							<th>Status</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -50,24 +64,28 @@
 							<td>25 Aug. 2025</td>
 							<td>15 Dec. 2025</td>
 							<td>Advanced object oriented programming in C++ language</td>
+							<td>In progress...</td>
 						</tr>
 						<tr>
 							<td>Technical Writing</td>
 							<td>25 Aug. 2025</td>
 							<td>15 Dec. 2025</td>
 							<td>Introduction to technical writing in professional environment</td>
+							<td>In progress...</td>
 						</tr>
 						<tr>
 							<td>Computer Systems and Procedures</td>
 							<td>15 Sept. 2025</td>
 							<td>15 Dec. 2025</td>
 							<td>Introduction to system design and planning</td>
+							<td>In progress...</td>
 						</tr>
 						<tr>
 							<td>Introduction to Web Programming</td>
 							<td>20 Oct. 2025</td>
 							<td>15 Dec. 2025</td>
 							<td>Introduction to web development</td>
+							<td>In progress...</td>
 						</tr>
 					</tbody>
 				</table>
@@ -85,8 +103,10 @@
 			</section>
 			<!--Contact Section includes: mailto link to be able to directly email me if you want to communicate-->
 			<section id="contact">
-				<h2>Contact Me:</h2>
-				<p>Feel free to contact me at: <a href="mailto:spiteleski@gmail.com"><em>spiteleski@gmail.com</em></a></p>
+				<div class="contact-content">
+					<h2>Contact Me:</h2>
+					<p>Feel free to contact me at: <br> <a href="mailto:spiteleski@gmail.com" class="cta-button">spiteleski@gmail.com</a></p>
+				</div>
 			</section>
 		</main>
 		<!--Footer Section: includes copyright information, need to see what I would actually put here-->
